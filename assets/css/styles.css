@@ -177,7 +177,6 @@ header .content .info {
 
 .info section:hover {
   box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
-  cursor: pointer;
 }
 
 .info .name h3 {
@@ -200,4 +199,70 @@ header .content .info {
   margin-top: 75px;
   padding: 22px 53px;
   border-radius: 30px;
+}
+
+/* How it Works */
+.hiw {
+  background: #F6FBFF;
+}
+
+.hiw .area {
+  padding: 100px 0;
+}
+
+.hiw .heading {
+  color: #10375C;
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+
+  margin-bottom: 18px;
+}
+
+.hiw .desc {
+  width: 468px;
+  color: #575F66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 3rem;
+  /* 166.667% */
+}
+
+.hiw .container {
+  margin-top: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hiw .container section {
+  width: 370px;
+  height: 402px;
+  padding: 43px 42px;
+  border-radius: 4px;
+  background-color: #FFF;
+  border: 16px solid #EAF6FF;
+}
+
+.hiw img {
+  margin-bottom: 18px;
+}
+
+.hiw h3 {
+  color: #10375C;
+  font-size: 2.6rem;
+  font-weight: 600;
+
+  margin-bottom: 28px;
+}
+
+.hiw .container .desc {
+  margin-bottom: 18px;
+  width: 254px;
+}
+
+.hiw a {
+  color: #2E80CE;
+  font-size: 1.6rem;
+  font-weight: 300;
 }
