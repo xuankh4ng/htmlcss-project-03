@@ -27,6 +27,10 @@ a {
   border-radius: 22px;
 }
 
+.btn:hover {
+  opacity: 0.5;
+}
+
 /* Header */
 header {
   height: 100vh;
@@ -64,16 +68,12 @@ ul a:hover {
   margin-left: 28px;
 }
 
-.auth .btn:hover {
-  opacity: 0.5;
-}
-
 header .content {
   padding-top: 76px;
   display: flex;
 }
 
-.content .info {
+header .content .info {
   width: 517px;
   padding-top: 60px;
 }
@@ -126,4 +126,78 @@ header .content {
   object-fit: cover;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+
+/* Our Services */
+.services .area {
+  padding: 170px 0;
+}
+
+.services .title {
+  text-align: center;
+}
+
+.title h2 {
+  color: #10375C;
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+
+  margin-bottom: 18px;
+}
+
+.title p {
+  display: inline-block;
+  width: 468px;
+  color: #575F66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 3rem;
+  /* 166.667% */
+}
+
+.services .content {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.info .box {
+  display: flex;
+  flex-direction: column;
+}
+
+.info section {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 21px 18px 20px 22px;
+}
+
+.info section:hover {
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.info .name h3 {
+  color: #10375C;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.info .name p {
+  color: #575F66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+  /* 175% */
+}
+
+.services .cta {
+  display: inline-block;
+  margin-top: 75px;
+  padding: 22px 53px;
+  border-radius: 30px;
 }
