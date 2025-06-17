@@ -33,7 +33,7 @@ a {
 
 /* Header */
 header {
-  height: 100vh;
+  height: 800px;
   background-color: #10375C;
 }
 
@@ -265,4 +265,59 @@ header .content .info {
   color: #2E80CE;
   font-size: 1.6rem;
   font-weight: 300;
+}
+
+/* About Us */
+.about-us .area {
+  padding: 170px 0;
+  display: flex;
+  align-items: center;
+  gap: 188px;
+}
+
+.about-us .img-container {
+  width: 570px;
+  height: 491px;
+  position: relative;
+}
+
+.about-us .bottom-img {
+  width: 512px;
+  height: 370px;
+}
+
+.about-us .top-img {
+  position: absolute;
+  bottom: 0;
+  right: -58px;
+}
+
+.about-us img {
+  border-radius: 6px;
+}
+
+.about-us .info h2 {
+  color: #10375C;
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+
+  margin-bottom: 18px;
+}
+
+.about-us .info p {
+  width: 468px;
+  color: #575F66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 3rem;
+  /* 166.667% */
+
+  margin-bottom: 38px;
+}
+
+.about-us .info a {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 22px 53px;
 }
