@@ -321,3 +321,86 @@ header .content .info {
   border-radius: 30px;
   padding: 22px 53px;
 }
+
+/* Teams */
+.teams .area {
+  padding: 170px 0;
+}
+
+.teams .heading {
+  text-align: center;
+}
+
+.teams .heading h2 {
+  color: #10375C;
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+}
+
+.teams .heading .btn {
+  display: inline-block;
+  padding: 22px 53px;
+  border-radius: 30px;
+
+  margin-top: 38px;
+}
+
+.teams .container {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.teams .dentist {
+  width: 270px;
+  text-align: center;
+}
+
+.teams .dentist img {
+  padding: 28px 4px 0;
+  background-color: #EAF6FF;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  object-fit: cover;
+}
+
+.teams .dentist h3 {
+  margin-top: 12px;
+  color: #10375C;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  /* 175% */
+  font-weight: 400;
+}
+
+.teams .dentist p {
+  color: #575F66;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.teams .nav-btn-container {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.teams .nav-btn {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #575F66;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.teams .active {
+  border: none;
+  background-color: #2E80CE;
+}
